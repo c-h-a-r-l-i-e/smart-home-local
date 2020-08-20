@@ -13,10 +13,6 @@
 
 import {ControlKind} from '../common/discovery';
 
-export interface IColorAbsolute {
-  color: {name: string; on: boolean;};
-}
-
 export interface IDiscoveryData {
   id: string;
   model: string;
