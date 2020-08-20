@@ -14,7 +14,7 @@
 import {ControlKind} from '../common/discovery';
 
 export interface IColorAbsolute {
-  color: {name: string; spectrumRGB: number;};
+  color: {name: string; on: boolean;};
 }
 
 export interface IDiscoveryData {
@@ -27,7 +27,6 @@ export interface IDiscoveryData {
 
 export interface ICustomData {
   channel: number;
-  leds: number;
   port: number;
   proxy: string;
   control_protocol: ControlKind;
@@ -35,5 +34,4 @@ export interface ICustomData {
 
 export interface IStrandInfo {
   channel: number;
-  leds: number;
 }
